@@ -1,4 +1,4 @@
-require ( './root.js' );
+require("./root.js");
 
 const { name, height, message } = require("../index.js");
 
@@ -11,7 +11,7 @@ describe("what-is-a-test", () => {
 
   describe("Height", () => {
     it("is less than 40 and greater than 0", () => {
-      expect(height).toBeMoreThan(0)
+      expect(height).toBeMoreThan(0);
       expect(height).toBeLessThan(40);
     });
   });
